@@ -1,25 +1,8 @@
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
+/*-------------------------------- 
 
-body {
-  background: #e6ecf0;
-  font-family: "Helvetica Neue", "Helvetica", Arial, sans-serif;
-  text-rendering: optimizeLegibility !important;
-  -webkit-font-smoothing: antialiased !important;
-}
+Header
 
-input,
-button {
-  outline: 0;
-}
-
-.wrapper {
-  width: 92%;
-  margin: 0 auto;
-}
+--------------------------------*/
 
 .main-header {
   height: 46px;
