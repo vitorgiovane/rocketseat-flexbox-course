@@ -15,7 +15,8 @@ Widgets
   margin-top: 10px;
 }
 
-.widgets__follow-header {
+.widgets__header {
+  padding-bottom: 10px;
   display: flex;
   align-items: baseline;
 }
@@ -120,4 +121,17 @@ Widgets
 .widgets__find-friends p {
   color: #3bb9e3;
   font-size: 14px;
+}
+
+.widgets__body {
+  list-style: none;
+}
+
+.widgets__trends-topic a {
+  text-decoration: none;
+  color: #3bb9e3;
+  font-size: 15px;
+  font-weight: bold;
+  padding: 4px 0;
+  display: block;
 }
