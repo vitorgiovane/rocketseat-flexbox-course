@@ -1,0 +1,95 @@
+/*-------------------------------- 
+
+Profile
+
+--------------------------------*/
+
+.profile {
+  width: 25%;
+}
+
+.profile__avatar {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  border: 5px solid #ffffff;
+  margin-top: -135px;
+}
+
+.profile__name {
+  font-size: 21px;
+  color: #1f2226;
+  margin-top: 10px;
+}
+
+.profile__username {
+  font-size: 14px;
+  color: #53626c;
+}
+
+.profile__description {
+  font-size: 14px;
+  color: #1f2226;
+  margin-top: 15px;
+}
+
+.profile__personal-info {
+  margin-top: 20px;
+  list-style: none;
+}
+
+.profile__personal-information {
+  font-size: 14px;
+  color: #657786;
+  display: flex;
+  align-items: center;
+  margin-bottom: 5px;
+}
+
+.profile__personal-information img {
+  width: 18px;
+  height: auto;
+  margin-right: 10px;
+}
+
+.profile__widget {
+  margin-top: 30px;
+}
+
+.profile__widget span {
+  color: #3bb9e3;
+  font-size: 14px;
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.profile__widget span img {
+  margin-right: 5px;
+  height: 18px;
+}
+
+.profile__widget ul {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  flex-shrink: 0;
+}
+
+.profile__followers ul li {
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  background: #d0d5d9;
+  margin-right: 5px;
+  margin-bottom: 5px;
+}
+
+.profile__images ul li {
+  width: 80px;
+  height: 80px;
+  background: #d0d5d9;
+  margin-right: 5px;
+  margin-bottom: 5px;
+  border-radius: 6px;
+}
