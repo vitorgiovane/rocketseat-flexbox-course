@@ -60,7 +60,7 @@ Header
   border-radius: 16px;
   color: #667581;
   font-size: 12px;
-  background: url("./images/search.svg") no-repeat;
+  background: url("../images/search.svg") no-repeat;
   background-position: 92% center;
   background-size: auto 50%;
 }
