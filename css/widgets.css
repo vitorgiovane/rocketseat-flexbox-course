@@ -10,27 +10,28 @@ Widgets
 
 .widgets__widget {
   background-color: #ffffff;
-  box-shadow: 0 0 4px rgba(0,0,0,.10);
-  padding: 20px 15px;
+  box-shadow: 0 0 4px rgba(0, 0, 0, 0.1);
+  padding: 22px 18px;
   margin-top: 10px;
 }
 
 .widgets__follow-header {
   display: flex;
-  align-items: center;
+  align-items: baseline;
 }
 
 .widgets__title {
   font-weight: bold;
-  font-size: 1em;
-  margin-right: 10px;
+  font-size: 18px;
+  color: #1f2226;
 }
 
 .widgets__link {
   color: #3bb9e3;
   font-size: 12px;
   text-decoration: none;
-  margin-right: 5px;
+  position: relative;
+  padding-left: 12px;
 }
 
 .widgets__link:last-child {
@@ -38,22 +39,34 @@ Widgets
 }
 
 .widgets__link::before {
-  content: '';
-  width: 20px;
-  height: 20px;
-  background-color: #333333;
+  content: "";
+  width: 3px;
+  height: 3px;
+  background: #666666;
   border-radius: 50%;
+  margin: 0 5px 0 5px;
+  position: absolute;
+  left: 0;
+  top: 6px;
 }
 
 .widgets__follow-profile {
   display: flex;
   flex-shrink: 0;
   padding: 10px 0;
-  border-bottom: 1px solid #cccccc;
+  border-bottom: 1px solid #eeeeee;
+  justify-content: space-between;
 }
 
-.widgets__follow-profile:last-child {
-  border: none;
+.widgets__follow-left {
+  display: flex;
+  flex-shrink: 0;
+}
+
+.widgets__follow-close {
+  color: #bbbbbb;
+  font-size: 14px;
+  text-decoration: none;
 }
 
 .widgets__follow-profile img {
@@ -71,25 +84,40 @@ Widgets
 
 .widgets__follow-name {
   font-weight: bold;
-  font-size: 13px;
+  font-size: 14px;
+  color: #1f2226;
 }
 
 .widgets__follow-username {
-  font-size: 13px;
+  font-size: 14px;
   color: #aaaaaa;
 }
 
 .widgets__follow-right button {
-    height: 26px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 0 24px;
-    font-weight: bold;
-    font-size: 13px;
-    border-radius: 16px;
-    border: 1px solid #3bb9e3;
-    color: #3bb9e3;
-    background: transparent;
-    width: 92px;
+  height: 26px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 24px;
+  font-weight: bold;
+  font-size: 13px;
+  border-radius: 16px;
+  border: 1px solid #3bb9e3;
+  color: #3bb9e3;
+  background: transparent;
+  width: 92px;
+}
+
+.widgets__find-friends {
+  display: flex;
+  padding-top: 20px;
+}
+
+.widgets__find-friends img {
+  margin-right: 5px;
+}
+
+.widgets__find-friends p {
+  color: #3bb9e3;
+  font-size: 14px;
 }
