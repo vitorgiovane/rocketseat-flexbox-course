@@ -83,18 +83,27 @@ Widgets
   justify-content: space-between;
 }
 
+.widgets__follow-right-top {
+  display: flex;
+}
+
 .widgets__follow-name {
   font-weight: bold;
   font-size: 14px;
   color: #1f2226;
+  margin-right: 5px;
 }
 
 .widgets__follow-username {
   font-size: 14px;
   color: #aaaaaa;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  width: 90px;
 }
 
-.widgets__follow-right button {
+.widgets__follow-right a {
   height: 26px;
   display: flex;
   justify-content: center;
@@ -107,6 +116,11 @@ Widgets
   color: #3bb9e3;
   background: transparent;
   width: 92px;
+  text-decoration: none;
+}
+
+.widgets__follow-right a:hover {
+  background-color: rgba(59,185,227, 0.2);
 }
 
 .widgets__find-friends {
