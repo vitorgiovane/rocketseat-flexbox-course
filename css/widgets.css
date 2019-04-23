@@ -149,3 +149,19 @@ Widgets
   padding: 4px 0;
   display: block;
 }
+
+.widgets__credits {
+  display: flex;
+  flex-wrap: wrap;
+  flex-shrink: 0;
+  padding: 18px 16px;
+}
+
+.widgets__credits-words {
+  font-size: 12px;
+  color: #657786;
+  list-style: none;
+  flex-wrap: nowrap;
+  flex-shrink: 0;
+  margin-right: 10px;
+}
