@@ -13,7 +13,7 @@ Profile
   height: 200px;
   border-radius: 50%;
   border: 5px solid #ffffff;
-  margin-top: -135px;
+  margin-top: -158px;
 }
 
 .profile__name {
@@ -50,6 +50,11 @@ Profile
   width: 18px;
   height: auto;
   margin-right: 10px;
+}
+
+.profile__personal-information a {
+  color: #657786;
+  text-decoration: none;
 }
 
 .profile__widget {
