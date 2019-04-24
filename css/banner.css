@@ -7,8 +7,9 @@ Banner
 .banner {
   height: 380px;
   width: 100%;
-  background: #3bb9e3;
-
+  background: #3bb9e3 url('../images/ring.png');
+  background-size: cover;
+  background-position: center center;
   display: flex;
   align-items: center;
   justify-content: center;
